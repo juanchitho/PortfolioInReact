@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Oswald:wght@200&family=Rubik&display=swap');
+:root{
+  --colorNegro: #212121;
+  --colorBlanco: #f8f8f8;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}

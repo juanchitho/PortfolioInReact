@@ -1,0 +1,20 @@
+/* Linea */
+hr.solid {
+    border-top: 2px solid #bbb;
+  }
+.experience{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.parrafoExperience > h2{
+    padding-top: 2rem;
+    color: var(--colorNegro);
+}
+.parrafoExperience > p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #7f7f7f;
+}

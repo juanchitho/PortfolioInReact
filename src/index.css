@@ -1,0 +1,124 @@
+/*MEDIA QUERIES*/
+
+@media(max-width: 1024px){
+  /*PORTADA*/
+
+ .contenedorHero{
+     flex: 1;
+     padding: 20% 5% 0% 5%;
+     
+     
+ }
+ .contenedorHero h1{
+     font-size: 2.5rem;
+     line-height: 0.9em; 
+
+ }
+ .contenedorHero h2{
+     font-size: 1.2rem;
+ }
+ .logosHero{
+     flex: 1;
+     padding: 20% 5% 0% 5%;
+ }
+ .logosHero a{
+     font-size: 1.3rem;
+     letter-spacing: 1rem;
+ }
+ .whatIDo{
+     padding: 7% 0% 0% 0%;
+ }
+ .whatIDo p{ 
+     font-size: 0.8rem;
+ }
+ .textoWhatIdo{
+     font-size: 2.5rem;
+ }
+ .footerItself h1{
+     font-size: 2rem;
+     
+ }
+ .footerItself h2{
+     font-size: 1.2rem;
+ }
+ .footerItself a{
+     font-size: 1.1rem;
+ }
+ .footerItself p{
+     font-size: 0.9rem;
+     
+ }
+ .ultimasDosCajas div{
+     font-size: 0.1rem;
+     letter-spacing: 0rem;
+
+ }
+ .ultimasDosCajas p{
+     padding-bottom: 0.3rem;
+ }
+}
+
+
+
+
+
+/*Pantallas de 768px o menos*/
+@media(max-width: 768px){
+  .contenedorHero{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ } 
+ .imagenHero{
+     width: 70%;
+     height: 10rem;
+     justify-content: center;
+     padding-top: 1rem;
+ }
+ .contenedorTextoHero{
+     width: 100%;
+ }
+ .contenedorServicios{
+  flex-wrap: wrap;
+}
+nav nav{
+  display: none;
+}
+.hamburgesa{
+  display: block;
+  color: black;
+}
+}
+
+@media(max-width:600px){
+ 
+ .imagenHero{
+     width: 70%;
+     height: 13rem;
+ }
+
+ .logosHero{
+     font-size: 0.8rem;
+     gap: none;
+     
+ }
+ .iconosHero{
+     
+     letter-spacing: none;
+     padding-bottom: 1rem;
+ }
+ .contenedorServicios{
+     flex-wrap: wrap;
+ }
+ .footerItself {
+     width: 100%;
+     
+ 
+ }
+ .form{
+     width: 100%;
+ }
+ .logosHero{
+    flex-wrap: wrap;
+ }
+}

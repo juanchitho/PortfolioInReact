@@ -1,0 +1,56 @@
+.whatIDo{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding-bottom: 3rem;
+    width: 70%;
+    margin: auto;
+    
+}
+.textoWhatIdo{
+    display: flex;
+    flex-direction:row;
+    width: 70%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--colorNegro);
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 16rem;
+    
+    /*top-right-bottom-left*/
+    
+}
+.contenedorServicios{
+    display: flex;
+    width: 100%;
+    
+    
+    
+}
+.contenderoTextoServicios{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    
+    
+}
+.contenderoTextoServicios > h2{
+    letter-spacing: 0.11rem;
+    margin-bottom: 0.7rem;
+}
+.contenderoTextoServicios > p{
+    color: #7f7f7f;
+}
+.colorIcono{
+    display: flex;
+    flex-direction: column;
+    font-size: 3.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--colorNegro);
+}

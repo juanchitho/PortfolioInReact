@@ -1,0 +1,91 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedorHero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    flex-flow: wrap;
+    
+    
+    
+    
+}
+.imagenHero{
+    display: flex;
+    justify-content: end;
+    
+    width: 40%;
+    height: 15rem;
+    
+    
+}
+.contenedorTextoHero{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: start;
+    
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.contenedorTextoHero > h1 {
+    
+    font-size: 2.9rem;
+    font-weight: lighter;
+    color: #383737;
+    flex-grow: 2;
+    
+}
+.contenedorTextoHero > h2{
+    margin-top: 1rem;
+    color: var(--colorNegro);
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 0.08rem;
+    flex-grow: 2;
+    
+}
+
+
+strong{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    
+}
+.logosHero{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    justify-content: space-between;
+    width: 70%;
+    color: var(--colorNegro);
+    margin: auto;
+    flex-flow: wrap;
+    
+}
+.iconosHero{
+    display: flex;
+    font-size: 2rem;
+    color: var(--colorNegro);
+    letter-spacing: 2rem;
+    justify-content: start;
+    
+    
+}
+
+.iconosHero a:hover{
+    transition: 0.4s;
+    color: rgb(20, 23, 187);
+    
+}
+.logosHero p{
+    font-size: 1.5rem;
+}
