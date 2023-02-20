@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css'
-import heroimg from '../../assets/heroImg.jpg'
+import heroimg from '../../assets/heroimg.jpg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
