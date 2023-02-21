@@ -21,7 +21,7 @@ const Whatido = () => {
                 <div class="contenderoTextoServicios">
                     <i class="bi bi-window colorIcono"><CgWebsite/></i>
                     <h2>Website</h2>
-                    <p>Soy web developer full-stack por lo tanto puedo crear y mantener paginas Web </p>
+                    <p>Soy web developer full-stack por lo tanto puedo crear y mantener paginas Web. </p>
                 </div>
                 
                 <div class="contenderoTextoServicios">
