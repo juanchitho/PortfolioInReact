@@ -15,19 +15,19 @@ const Whatido = () => {
                 <div class="contenderoTextoServicios">
                     <i class="bi bi-brush colorIcono"><FaPalette/></i> 
                     <h2>UI & UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam amet vel reiciendis, perferendis eum nulla necessitatibus neque voluptas temporibus ab nobis nam saepe sit quae rerum.</p>
+                    <p>Me centro en crear, optimizar y integrar entornos en pantalla que sean atractivos y sencillos de usar.</p>
                 </div>
                 
                 <div class="contenderoTextoServicios">
                     <i class="bi bi-window colorIcono"><CgWebsite/></i>
                     <h2>Website</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam amet vel reiciendis, perferendis eum nulla necessitatibus neque voluptas temporibus ab nobis nam saepe sit quae rerum.</p>
+                    <p>Soy web developer full-stack por lo tanto puedo crear y mantener paginas Web </p>
                 </div>
                 
                 <div class="contenderoTextoServicios">
                     <i class="bi bi-terminal colorIcono"><FaDesktop/></i>
                     <h2>Desktop Application</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam amet vel reiciendis, perferendis eum nulla necessitatibus neque voluptas temporibus ab nobis nam saepe sit quae rerum.</p>
+                    <p>Puedo desarrollar aplicaciones y juegos para PC con mis conocimientos de Python y C. </p>
                 </div>
             </div>
         </section>
